@@ -10,3 +10,9 @@ The Dashboard/ directory contains files used for the Cyclone Dashboard. They sho
 ## Thruster test
 
 This runs through all the thrusters one by one, with 1 second between each thruster. This doesn't use the Thrust-Control stack, so should be used to test the pico/thrusters themselves, not the full Cyclone stack.
+
+`all_thrusters.sh` sets all thrusters to a low, forwards PWM.
+`stop_thrusters.sh` sets all thrusters to a stop PWM (1500).
+`thruster_test.sh` runs through all thrusters one at a time, in ascending order.
+
+If you update to a new Pico, make sure to update the filepath in these scripts.
