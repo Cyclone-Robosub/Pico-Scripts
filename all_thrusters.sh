@@ -4,5 +4,5 @@ thrusters=(8 9 6 7 13 11 12 10)
 
 for i in {0..7}
 do
-	echo "Set ${thrusters[i]} PWM 1560" > /dev/serial/by-id/usb-MicroPython_Board_in_FS_mode_027d485dbf80bb5f-if00
+	echo "Set ${thrusters[i]} PWM 1540" > /dev/serial/by-id/usb-MicroPython_Board_in_FS_mode_027d485dbf80bb5f-if00
 done
