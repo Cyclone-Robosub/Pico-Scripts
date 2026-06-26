@@ -1,6 +1,6 @@
 #!/bin/bash
 
-thrusters=(8 9 6 7 13 11 12 10)
+thrusters=(2 0 6 4 19 26 21 27)
 
 for i in {0..7}
 do
